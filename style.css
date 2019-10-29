@@ -1,0 +1,108 @@
+div[class="img"]{
+float: left;
+width: 40%;
+font-family: Arial;
+}
+
+div[class="input"]{
+  width: 100%;
+  font-family: Arial;
+}
+
+div[class="logo"]{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+div[class="privacy"]{
+  margin-top: 400px;
+}
+
+hr {
+width: 75px;
+margin-left: 55%;
+height: 4px;
+background-color:#00918e;
+opcaity: 0.5;
+}
+
+#river{
+clip-path: polygon(90% 50%, 0% 0, 0% 100%);
+}
+
+#download{
+  font-size: 10px;
+
+  color: purple;
+  text-decoration: underline;
+}
+
+#privacy{
+
+  position: absolute;
+  bottom: -200px;
+  right: 160px;
+  font-size: 10px;
+  color: #00918e;
+  text-decoration: none;
+}
+
+#disclaimer{
+  position: absolute;
+  bottom: -200px;
+  right: 110px;
+  font-size: 10px;
+
+  color: #00918e;
+  text-decoration: none;
+}
+#copyright{
+  position: absolute;
+  bottom: -200px;
+  right: 30px;
+  font-size: 10px;
+
+}
+
+h2{
+  margin-left: 55%;
+  align-items: center;
+  font-family: Arial;
+  font-size: 170%;
+}
+
+label{
+  font-size: 10px;
+  margin-left: 10%;
+  font-family: Arial;
+}
+
+label[for="Login"]{
+  margin-left: 15%;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+input[type="text"]{
+  margin-left: 15%;
+
+  padding:6px 93px;
+}
+
+input[type="text"]::placeholder{
+  text-align: left;
+}
+
+input.checkbox{
+  margin-left: 15%;
+  margin-right: -140px;
+  width: 15px;
+  height: 15px;
+}
+
+
+button{
+  margin-left: 15%;
+  padding: 10px 150px;
+}
